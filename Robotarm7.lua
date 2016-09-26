@@ -1,4 +1,4 @@
-require 'robot_arm'
+require 'robot_arm' robot_arm.speed = 0.95
 robot_arm:load_level('exercise 8')
 robot_arm:move_right()
 for i=1, 7 do
